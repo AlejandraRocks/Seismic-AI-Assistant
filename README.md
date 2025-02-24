@@ -65,7 +65,7 @@ Fine-tuned models will be saved in the `modelo-entrenado/` directory.
 
 ---
 ## Example UI Screenshot
-![Chatbot Screenshot](screenshots/chatbot_ui.png)
+![Chatbot Screenshot](screenshots/1.png)
 
 ---
 ## Customizing Gradio and React UI
