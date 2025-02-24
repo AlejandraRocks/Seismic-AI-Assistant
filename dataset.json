@@ -1,0 +1,837 @@
+[
+    {
+        "category": "4D Seismics",
+        "question": "What is 4D seismic?",
+        "answer": "4D seismic is the application of time-lapse seismic surveys to monitor subsurface changes over time."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What are the main steps in seismic data processing?",
+        "answer": "The main steps include acquisition, preprocessing, velocity analysis, stacking, migration, and interpretation."
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "How do you apply a band-pass filter in Seismic Unix?",
+        "answer": "Use the command: sufilter f=10,20,40,50"
+    },
+    {
+        "category": "4D Seismics",
+        "question": "What is the difference between 3D and 4D seismic?",
+        "answer": "3D seismic provides a static image, while 4D seismic tracks changes over time."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is seismic processing?",
+        "answer": "Seismic processing involves enhancing raw seismic data to create an interpretable image of the subsurface."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "Why is 4D seismic important for reservoir management?",
+        "answer": "It allows real-time decision-making by monitoring reservoir dynamics and optimizing production."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "What are the key challenges in 4D seismic?",
+        "answer": "Challenges include data repeatability, noise reduction, and accurate seismic interpretation."
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "How do you visualize seismic data in Seismic Unix?",
+        "answer": "Use the command: suxwigb < input.su title='Seismic Section'"
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is velocity analysis in seismic processing?",
+        "answer": "Velocity analysis helps determine the velocity of seismic waves through different layers of the subsurface."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "How does 4D seismic help in oil and gas reservoirs?",
+        "answer": "It helps track fluid movements and detect production-related changes in the reservoir."
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "What is the function of 'sushw' in Seismic Unix?",
+        "answer": "sushw is used to modify header values in SU data files."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "What is the difference between 3D and 4D seismic?",
+        "answer": "3D seismic provides a static image, while 4D seismic tracks changes over time."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "Why is 4D seismic important for reservoir management?",
+        "answer": "It allows real-time decision-making by monitoring reservoir dynamics and optimizing production."
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "What is Seismic Unix?",
+        "answer": "Seismic Unix (SU) is an open-source software package used for seismic processing."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is seismic processing?",
+        "answer": "Seismic processing involves enhancing raw seismic data to create an interpretable image of the subsurface."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "What is the difference between 3D and 4D seismic?",
+        "answer": "3D seismic provides a static image, while 4D seismic tracks changes over time."
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "What is Seismic Unix?",
+        "answer": "Seismic Unix (SU) is an open-source software package used for seismic processing."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "How does 4D seismic help in oil and gas reservoirs?",
+        "answer": "It helps track fluid movements and detect production-related changes in the reservoir."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "What is 4D seismic?",
+        "answer": "4D seismic is the application of time-lapse seismic surveys to monitor subsurface changes over time."
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "How do you visualize seismic data in Seismic Unix?",
+        "answer": "Use the command: suxwigb < input.su title='Seismic Section'"
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "How do you visualize seismic data in Seismic Unix?",
+        "answer": "Use the command: suxwigb < input.su title='Seismic Section'"
+    },
+    {
+        "category": "4D Seismics",
+        "question": "How does 4D seismic help in oil and gas reservoirs?",
+        "answer": "It helps track fluid movements and detect production-related changes in the reservoir."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is seismic processing?",
+        "answer": "Seismic processing involves enhancing raw seismic data to create an interpretable image of the subsurface."
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "How do you visualize seismic data in Seismic Unix?",
+        "answer": "Use the command: suxwigb < input.su title='Seismic Section'"
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "How do you visualize seismic data in Seismic Unix?",
+        "answer": "Use the command: suxwigb < input.su title='Seismic Section'"
+    },
+    {
+        "category": "4D Seismics",
+        "question": "What is the difference between 3D and 4D seismic?",
+        "answer": "3D seismic provides a static image, while 4D seismic tracks changes over time."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "What is the difference between 3D and 4D seismic?",
+        "answer": "3D seismic provides a static image, while 4D seismic tracks changes over time."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is seismic migration?",
+        "answer": "Seismic migration corrects for the effects of dipping reflectors and places seismic events in their correct subsurface locations."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "What is 4D seismic?",
+        "answer": "4D seismic is the application of time-lapse seismic surveys to monitor subsurface changes over time."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "Why is 4D seismic important for reservoir management?",
+        "answer": "It allows real-time decision-making by monitoring reservoir dynamics and optimizing production."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "What is the difference between 3D and 4D seismic?",
+        "answer": "3D seismic provides a static image, while 4D seismic tracks changes over time."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is velocity analysis in seismic processing?",
+        "answer": "Velocity analysis helps determine the velocity of seismic waves through different layers of the subsurface."
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "How do you apply a band-pass filter in Seismic Unix?",
+        "answer": "Use the command: sufilter f=10,20,40,50"
+    },
+    {
+        "category": "4D Seismics",
+        "question": "What are the key challenges in 4D seismic?",
+        "answer": "Challenges include data repeatability, noise reduction, and accurate seismic interpretation."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "What are the key challenges in 4D seismic?",
+        "answer": "Challenges include data repeatability, noise reduction, and accurate seismic interpretation."
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "How do you convert SEG-Y files to SU format?",
+        "answer": "Use the command: segyread tape=input.sgy > output.su"
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is seismic deconvolution?",
+        "answer": "Deconvolution is a process used to remove the seismic wavelet effect and improve resolution."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "What are the key challenges in 4D seismic?",
+        "answer": "Challenges include data repeatability, noise reduction, and accurate seismic interpretation."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is seismic deconvolution?",
+        "answer": "Deconvolution is a process used to remove the seismic wavelet effect and improve resolution."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "What are the key challenges in 4D seismic?",
+        "answer": "Challenges include data repeatability, noise reduction, and accurate seismic interpretation."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is seismic migration?",
+        "answer": "Seismic migration corrects for the effects of dipping reflectors and places seismic events in their correct subsurface locations."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is seismic migration?",
+        "answer": "Seismic migration corrects for the effects of dipping reflectors and places seismic events in their correct subsurface locations."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is seismic deconvolution?",
+        "answer": "Deconvolution is a process used to remove the seismic wavelet effect and improve resolution."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "How does 4D seismic help in oil and gas reservoirs?",
+        "answer": "It helps track fluid movements and detect production-related changes in the reservoir."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "How does 4D seismic help in oil and gas reservoirs?",
+        "answer": "It helps track fluid movements and detect production-related changes in the reservoir."
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "How do you visualize seismic data in Seismic Unix?",
+        "answer": "Use the command: suxwigb < input.su title='Seismic Section'"
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "What is the function of 'sushw' in Seismic Unix?",
+        "answer": "sushw is used to modify header values in SU data files."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "Why is 4D seismic important for reservoir management?",
+        "answer": "It allows real-time decision-making by monitoring reservoir dynamics and optimizing production."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "Why is 4D seismic important for reservoir management?",
+        "answer": "It allows real-time decision-making by monitoring reservoir dynamics and optimizing production."
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "What is the function of 'sushw' in Seismic Unix?",
+        "answer": "sushw is used to modify header values in SU data files."
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "How do you apply a band-pass filter in Seismic Unix?",
+        "answer": "Use the command: sufilter f=10,20,40,50"
+    },
+    {
+        "category": "4D Seismics",
+        "question": "What is the difference between 3D and 4D seismic?",
+        "answer": "3D seismic provides a static image, while 4D seismic tracks changes over time."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "What is the difference between 3D and 4D seismic?",
+        "answer": "3D seismic provides a static image, while 4D seismic tracks changes over time."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is velocity analysis in seismic processing?",
+        "answer": "Velocity analysis helps determine the velocity of seismic waves through different layers of the subsurface."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "How does 4D seismic help in oil and gas reservoirs?",
+        "answer": "It helps track fluid movements and detect production-related changes in the reservoir."
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "What is Seismic Unix?",
+        "answer": "Seismic Unix (SU) is an open-source software package used for seismic processing."
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "How do you apply a band-pass filter in Seismic Unix?",
+        "answer": "Use the command: sufilter f=10,20,40,50"
+    },
+    {
+        "category": "4D Seismics",
+        "question": "How does 4D seismic help in oil and gas reservoirs?",
+        "answer": "It helps track fluid movements and detect production-related changes in the reservoir."
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "How do you convert SEG-Y files to SU format?",
+        "answer": "Use the command: segyread tape=input.sgy > output.su"
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "How do you apply a band-pass filter in Seismic Unix?",
+        "answer": "Use the command: sufilter f=10,20,40,50"
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is seismic migration?",
+        "answer": "Seismic migration corrects for the effects of dipping reflectors and places seismic events in their correct subsurface locations."
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "How do you visualize seismic data in Seismic Unix?",
+        "answer": "Use the command: suxwigb < input.su title='Seismic Section'"
+    },
+    {
+        "category": "4D Seismics",
+        "question": "What is the difference between 3D and 4D seismic?",
+        "answer": "3D seismic provides a static image, while 4D seismic tracks changes over time."
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "How do you convert SEG-Y files to SU format?",
+        "answer": "Use the command: segyread tape=input.sgy > output.su"
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "What is Seismic Unix?",
+        "answer": "Seismic Unix (SU) is an open-source software package used for seismic processing."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "How does 4D seismic help in oil and gas reservoirs?",
+        "answer": "It helps track fluid movements and detect production-related changes in the reservoir."
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "What is the function of 'sushw' in Seismic Unix?",
+        "answer": "sushw is used to modify header values in SU data files."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "What is 4D seismic?",
+        "answer": "4D seismic is the application of time-lapse seismic surveys to monitor subsurface changes over time."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is seismic processing?",
+        "answer": "Seismic processing involves enhancing raw seismic data to create an interpretable image of the subsurface."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "What are the key challenges in 4D seismic?",
+        "answer": "Challenges include data repeatability, noise reduction, and accurate seismic interpretation."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "How does 4D seismic help in oil and gas reservoirs?",
+        "answer": "It helps track fluid movements and detect production-related changes in the reservoir."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is seismic deconvolution?",
+        "answer": "Deconvolution is a process used to remove the seismic wavelet effect and improve resolution."
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "What is the function of 'sushw' in Seismic Unix?",
+        "answer": "sushw is used to modify header values in SU data files."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is seismic migration?",
+        "answer": "Seismic migration corrects for the effects of dipping reflectors and places seismic events in their correct subsurface locations."
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "How do you visualize seismic data in Seismic Unix?",
+        "answer": "Use the command: suxwigb < input.su title='Seismic Section'"
+    },
+    {
+        "category": "4D Seismics",
+        "question": "Why is 4D seismic important for reservoir management?",
+        "answer": "It allows real-time decision-making by monitoring reservoir dynamics and optimizing production."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "What is 4D seismic?",
+        "answer": "4D seismic is the application of time-lapse seismic surveys to monitor subsurface changes over time."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is seismic migration?",
+        "answer": "Seismic migration corrects for the effects of dipping reflectors and places seismic events in their correct subsurface locations."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What are the main steps in seismic data processing?",
+        "answer": "The main steps include acquisition, preprocessing, velocity analysis, stacking, migration, and interpretation."
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "What is Seismic Unix?",
+        "answer": "Seismic Unix (SU) is an open-source software package used for seismic processing."
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "How do you apply a band-pass filter in Seismic Unix?",
+        "answer": "Use the command: sufilter f=10,20,40,50"
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "How do you visualize seismic data in Seismic Unix?",
+        "answer": "Use the command: suxwigb < input.su title='Seismic Section'"
+    },
+    {
+        "category": "4D Seismics",
+        "question": "What is the difference between 3D and 4D seismic?",
+        "answer": "3D seismic provides a static image, while 4D seismic tracks changes over time."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is seismic processing?",
+        "answer": "Seismic processing involves enhancing raw seismic data to create an interpretable image of the subsurface."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is velocity analysis in seismic processing?",
+        "answer": "Velocity analysis helps determine the velocity of seismic waves through different layers of the subsurface."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is seismic deconvolution?",
+        "answer": "Deconvolution is a process used to remove the seismic wavelet effect and improve resolution."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "What is the difference between 3D and 4D seismic?",
+        "answer": "3D seismic provides a static image, while 4D seismic tracks changes over time."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "What is 4D seismic?",
+        "answer": "4D seismic is the application of time-lapse seismic surveys to monitor subsurface changes over time."
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "How do you apply a band-pass filter in Seismic Unix?",
+        "answer": "Use the command: sufilter f=10,20,40,50"
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "How do you visualize seismic data in Seismic Unix?",
+        "answer": "Use the command: suxwigb < input.su title='Seismic Section'"
+    },
+    {
+        "category": "4D Seismics",
+        "question": "What is the difference between 3D and 4D seismic?",
+        "answer": "3D seismic provides a static image, while 4D seismic tracks changes over time."
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "How do you visualize seismic data in Seismic Unix?",
+        "answer": "Use the command: suxwigb < input.su title='Seismic Section'"
+    },
+    {
+        "category": "4D Seismics",
+        "question": "How does 4D seismic help in oil and gas reservoirs?",
+        "answer": "It helps track fluid movements and detect production-related changes in the reservoir."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "How does 4D seismic help in oil and gas reservoirs?",
+        "answer": "It helps track fluid movements and detect production-related changes in the reservoir."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "How does 4D seismic help in oil and gas reservoirs?",
+        "answer": "It helps track fluid movements and detect production-related changes in the reservoir."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is seismic deconvolution?",
+        "answer": "Deconvolution is a process used to remove the seismic wavelet effect and improve resolution."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "What is the difference between 3D and 4D seismic?",
+        "answer": "3D seismic provides a static image, while 4D seismic tracks changes over time."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is velocity analysis in seismic processing?",
+        "answer": "Velocity analysis helps determine the velocity of seismic waves through different layers of the subsurface."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "How does 4D seismic help in oil and gas reservoirs?",
+        "answer": "It helps track fluid movements and detect production-related changes in the reservoir."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "Why is 4D seismic important for reservoir management?",
+        "answer": "It allows real-time decision-making by monitoring reservoir dynamics and optimizing production."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "Why is 4D seismic important for reservoir management?",
+        "answer": "It allows real-time decision-making by monitoring reservoir dynamics and optimizing production."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "How does 4D seismic help in oil and gas reservoirs?",
+        "answer": "It helps track fluid movements and detect production-related changes in the reservoir."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is seismic migration?",
+        "answer": "Seismic migration corrects for the effects of dipping reflectors and places seismic events in their correct subsurface locations."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is seismic deconvolution?",
+        "answer": "Deconvolution is a process used to remove the seismic wavelet effect and improve resolution."
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "How do you visualize seismic data in Seismic Unix?",
+        "answer": "Use the command: suxwigb < input.su title='Seismic Section'"
+    },
+    {
+        "category": "4D Seismics",
+        "question": "Why is 4D seismic important for reservoir management?",
+        "answer": "It allows real-time decision-making by monitoring reservoir dynamics and optimizing production."
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "What is the function of 'sushw' in Seismic Unix?",
+        "answer": "sushw is used to modify header values in SU data files."
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "What is Seismic Unix?",
+        "answer": "Seismic Unix (SU) is an open-source software package used for seismic processing."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is seismic processing?",
+        "answer": "Seismic processing involves enhancing raw seismic data to create an interpretable image of the subsurface."
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "What is the function of 'sushw' in Seismic Unix?",
+        "answer": "sushw is used to modify header values in SU data files."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "What are the key challenges in 4D seismic?",
+        "answer": "Challenges include data repeatability, noise reduction, and accurate seismic interpretation."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is seismic deconvolution?",
+        "answer": "Deconvolution is a process used to remove the seismic wavelet effect and improve resolution."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "Why is 4D seismic important for reservoir management?",
+        "answer": "It allows real-time decision-making by monitoring reservoir dynamics and optimizing production."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is seismic processing?",
+        "answer": "Seismic processing involves enhancing raw seismic data to create an interpretable image of the subsurface."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "How does 4D seismic help in oil and gas reservoirs?",
+        "answer": "It helps track fluid movements and detect production-related changes in the reservoir."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "What is 4D seismic?",
+        "answer": "4D seismic is the application of time-lapse seismic surveys to monitor subsurface changes over time."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is seismic processing?",
+        "answer": "Seismic processing involves enhancing raw seismic data to create an interpretable image of the subsurface."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What are the main steps in seismic data processing?",
+        "answer": "The main steps include acquisition, preprocessing, velocity analysis, stacking, migration, and interpretation."
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "What is the function of 'sushw' in Seismic Unix?",
+        "answer": "sushw is used to modify header values in SU data files."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What are the main steps in seismic data processing?",
+        "answer": "The main steps include acquisition, preprocessing, velocity analysis, stacking, migration, and interpretation."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "What is 4D seismic?",
+        "answer": "4D seismic is the application of time-lapse seismic surveys to monitor subsurface changes over time."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is velocity analysis in seismic processing?",
+        "answer": "Velocity analysis helps determine the velocity of seismic waves through different layers of the subsurface."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What are the main steps in seismic data processing?",
+        "answer": "The main steps include acquisition, preprocessing, velocity analysis, stacking, migration, and interpretation."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "What are the key challenges in 4D seismic?",
+        "answer": "Challenges include data repeatability, noise reduction, and accurate seismic interpretation."
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "How do you convert SEG-Y files to SU format?",
+        "answer": "Use the command: segyread tape=input.sgy > output.su"
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "What is the function of 'sushw' in Seismic Unix?",
+        "answer": "sushw is used to modify header values in SU data files."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is seismic processing?",
+        "answer": "Seismic processing involves enhancing raw seismic data to create an interpretable image of the subsurface."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "What is the difference between 3D and 4D seismic?",
+        "answer": "3D seismic provides a static image, while 4D seismic tracks changes over time."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is seismic deconvolution?",
+        "answer": "Deconvolution is a process used to remove the seismic wavelet effect and improve resolution."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is velocity analysis in seismic processing?",
+        "answer": "Velocity analysis helps determine the velocity of seismic waves through different layers of the subsurface."
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "What is Seismic Unix?",
+        "answer": "Seismic Unix (SU) is an open-source software package used for seismic processing."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is velocity analysis in seismic processing?",
+        "answer": "Velocity analysis helps determine the velocity of seismic waves through different layers of the subsurface."
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "How do you visualize seismic data in Seismic Unix?",
+        "answer": "Use the command: suxwigb < input.su title='Seismic Section'"
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is seismic migration?",
+        "answer": "Seismic migration corrects for the effects of dipping reflectors and places seismic events in their correct subsurface locations."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "What is 4D seismic?",
+        "answer": "4D seismic is the application of time-lapse seismic surveys to monitor subsurface changes over time."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "What is 4D seismic?",
+        "answer": "4D seismic is the application of time-lapse seismic surveys to monitor subsurface changes over time."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is seismic processing?",
+        "answer": "Seismic processing involves enhancing raw seismic data to create an interpretable image of the subsurface."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What are the main steps in seismic data processing?",
+        "answer": "The main steps include acquisition, preprocessing, velocity analysis, stacking, migration, and interpretation."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is seismic migration?",
+        "answer": "Seismic migration corrects for the effects of dipping reflectors and places seismic events in their correct subsurface locations."
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "How do you apply a band-pass filter in Seismic Unix?",
+        "answer": "Use the command: sufilter f=10,20,40,50"
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "What is Seismic Unix?",
+        "answer": "Seismic Unix (SU) is an open-source software package used for seismic processing."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "What is 4D seismic?",
+        "answer": "4D seismic is the application of time-lapse seismic surveys to monitor subsurface changes over time."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is seismic deconvolution?",
+        "answer": "Deconvolution is a process used to remove the seismic wavelet effect and improve resolution."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "What is the difference between 3D and 4D seismic?",
+        "answer": "3D seismic provides a static image, while 4D seismic tracks changes over time."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "What is 4D seismic?",
+        "answer": "4D seismic is the application of time-lapse seismic surveys to monitor subsurface changes over time."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "What is 4D seismic?",
+        "answer": "4D seismic is the application of time-lapse seismic surveys to monitor subsurface changes over time."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is seismic migration?",
+        "answer": "Seismic migration corrects for the effects of dipping reflectors and places seismic events in their correct subsurface locations."
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "What is the function of 'sushw' in Seismic Unix?",
+        "answer": "sushw is used to modify header values in SU data files."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "How does 4D seismic help in oil and gas reservoirs?",
+        "answer": "It helps track fluid movements and detect production-related changes in the reservoir."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "How does 4D seismic help in oil and gas reservoirs?",
+        "answer": "It helps track fluid movements and detect production-related changes in the reservoir."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What are the main steps in seismic data processing?",
+        "answer": "The main steps include acquisition, preprocessing, velocity analysis, stacking, migration, and interpretation."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is seismic deconvolution?",
+        "answer": "Deconvolution is a process used to remove the seismic wavelet effect and improve resolution."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is velocity analysis in seismic processing?",
+        "answer": "Velocity analysis helps determine the velocity of seismic waves through different layers of the subsurface."
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "How do you apply a band-pass filter in Seismic Unix?",
+        "answer": "Use the command: sufilter f=10,20,40,50"
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is velocity analysis in seismic processing?",
+        "answer": "Velocity analysis helps determine the velocity of seismic waves through different layers of the subsurface."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "What is the difference between 3D and 4D seismic?",
+        "answer": "3D seismic provides a static image, while 4D seismic tracks changes over time."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "What is the difference between 3D and 4D seismic?",
+        "answer": "3D seismic provides a static image, while 4D seismic tracks changes over time."
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "What is the function of 'sushw' in Seismic Unix?",
+        "answer": "sushw is used to modify header values in SU data files."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is seismic migration?",
+        "answer": "Seismic migration corrects for the effects of dipping reflectors and places seismic events in their correct subsurface locations."
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "How do you visualize seismic data in Seismic Unix?",
+        "answer": "Use the command: suxwigb < input.su title='Seismic Section'"
+    },
+    {
+        "category": "4D Seismics",
+        "question": "What are the key challenges in 4D seismic?",
+        "answer": "Challenges include data repeatability, noise reduction, and accurate seismic interpretation."
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "How do you visualize seismic data in Seismic Unix?",
+        "answer": "Use the command: suxwigb < input.su title='Seismic Section'"
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "What is Seismic Unix?",
+        "answer": "Seismic Unix (SU) is an open-source software package used for seismic processing."
+    },
+    {
+        "category": "Seismic Unix",
+        "question": "How do you apply a band-pass filter in Seismic Unix?",
+        "answer": "Use the command: sufilter f=10,20,40,50"
+    },
+    {
+        "category": "4D Seismics",
+        "question": "What are the key challenges in 4D seismic?",
+        "answer": "Challenges include data repeatability, noise reduction, and accurate seismic interpretation."
+    },
+    {
+        "category": "4D Seismics",
+        "question": "What are the key challenges in 4D seismic?",
+        "answer": "Challenges include data repeatability, noise reduction, and accurate seismic interpretation."
+    },
+    {
+        "category": "Seismic Processing",
+        "question": "What is seismic processing?",
+        "answer": "Seismic processing involves enhancing raw seismic data to create an interpretable image of the subsurface."
+    }
+]

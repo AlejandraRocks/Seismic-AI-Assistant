@@ -1,0 +1,13 @@
+gradio
+huggingface_hub
+langchain
+transformers
+peft
+datasets
+requests
+pandas
+numpy
+scipy
+torch
+faiss-cpu
+chromadb
