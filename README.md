@@ -119,6 +119,8 @@ You’ll get a link like:
 Running on local URL: http://127.0.0.1:7860
 ```
 
+## Example UI Screenshot
+![Chatbot Screenshot](screenshots/chatbot_ui.png)
 ---
 
 ## 🧪 Optional: Running Fine-Tuning Locally
