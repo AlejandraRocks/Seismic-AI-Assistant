@@ -121,6 +121,7 @@ Running on local URL: http://127.0.0.1:7860
 
 ## Example UI Screenshot
 ![Chatbot Screenshot](screenshots/1.png)
+![Chatbot Screenshot](screenshots/3.png)
 ![Chatbot Screenshot](screenshots/2.png)
 ---
 
