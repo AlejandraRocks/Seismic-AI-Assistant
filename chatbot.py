@@ -12,7 +12,7 @@ from langchain.tools import Tool
 from langchain_community.document_loaders import UnstructuredWordDocumentLoader
 
 
-API_KEY = "API-KEY"
+API_KEY = "Your API-KEY"
 client = InferenceClient(model="mistralai/Mistral-7B-Instruct-v0.3", token=API_KEY)
 embeddings = HuggingFaceEndpointEmbeddings(
     model="sentence-transformers/all-MiniLM-L6-v2",

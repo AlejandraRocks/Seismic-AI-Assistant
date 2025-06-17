@@ -22,6 +22,11 @@ This project supports both **Hugging Face API inference** and **retrieval from d
 - Provides a **simple UI** with **Gradio**.
 - ⚙️ Supports embedding regeneration and live testing.
 
+## New Feature: Seismic Processor Web App (Gradio)
+
+We have added a Gradio web application that allows you to upload a `.segy` file, process it using Seismic Unix, and download the resulting processed `.segy` file.
+
+
 ---
 
 ## Installation & Setup
@@ -53,24 +58,31 @@ python chatbot.py
 
 ---
 
-## 📂 Project Structure
-
-```
 /Seismic-AI-Assistant
 │
-├── chatbot.py                  # Main chatbot with RAG + HuggingFace API
-├── dataset/
-│   ├── SeismicUnix.docx        # Indexed document for SU commands
-│   └── processing_data.pdf     # Optional additional source
+├── chatbot.py                  # Main chatbot using RAG + HuggingFace API for answering seismic questions
 │
-├── evaluation.py               # Script to evaluate chatbot retrieval
-├── evaluation_metrics.ipynb    # Jupyter notebook for embedding quality tests
-├── test_embeddings.py          # Embedding similarity tester
-├── fine_tuned.py               # Script to fine-tune Mistral-7B using LoRA
+├── dataset/                    # Indexed documentation used for retrieval
+│   ├── SeismicUnix.docx        # Primary document with Seismic Unix commands
+│   └── processing_data.pdf     # Additional reference on seismic data processing
 │
-├── requirements.txt
-├── README.md
-└── .gitignore
+├── evaluation.py               # Script to evaluate chatbot's retrieval performance
+├── evaluation_metrics.ipynb    # Notebook for testing and visualizing embedding quality
+├── test_embeddings.py          # Tool to test similarity between embedded text chunks
+├── fine_tuned.py               # Script to fine-tune Mistral-7B model using LoRA
+│
+├── src/
+│   └── seismic_processor.py    # Core function to run Seismic Unix shell script and return processed SEG-Y
+│
+├── input_seismic-lines/        # Directory where SEG-Y files are uploaded for processing
+├── output_seismic-lines/       # Directory storing output .su and converted .segy files
+│
+├── seismic_processing.sh       # Bash script to convert SEG-Y to SU, apply gain/filter, and export processed data
+├── app.py                      # Gradio app interface to upload SEG-Y files and download processed outputs
+│
+├── requirements.txt            # Python dependencies
+├── README.md                   # Project documentation
+└── .gitignore                  # Files and folders to ignore in Git versioning
 ```
 
 ---
@@ -165,3 +177,26 @@ MIT License.
 
 ### 🌎 Developed for Geoscientists & Seismic Engineers
 
+## New Feature: Seismic Processor Web App (Gradio)
+
+We have added a Gradio web application that allows you to upload a `.segy` file, process it using Seismic Unix, and download the resulting processed `.segy` file.
+
+### How it works
+
+- The app is located in `app.py`.
+- Upon uploading a `.segy` file:
+  1. The backend script (`seismic_processor.py`) runs a shell script that:
+     - Converts the `.segy` file to `.su`.
+     - Applies basic processing (e.g., gain and band-pass filtering).
+     - Converts it back to `.segy`.
+  2. The processed `.segy` file is returned for download via the app.
+
+### Usage
+
+To launch the app locally:
+
+```bash
+python app.py
+```
+[app Screenshot](screenshots/4.png)
+Then open the interface in your browser, upload a `.segy` file, and download the processed version.

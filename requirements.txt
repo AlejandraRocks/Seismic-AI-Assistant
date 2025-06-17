@@ -1,3 +1,5 @@
+obspy
+matplotlib
 accelerate==1.7.0
 aiofiles==24.1.0
 aiohappyeyeballs==2.6.1
@@ -149,3 +151,8 @@ xxhash==3.5.0
 yarl==1.20.1
 zipp==3.23.0
 zstandard==0.23.0
+<<<<<<< HEAD
+=======
+unstructured
+python-docx
+>>>>>>> 5944e9b (Update: added SU processing and Gradio interface to Seismic-AI-Assistant)
