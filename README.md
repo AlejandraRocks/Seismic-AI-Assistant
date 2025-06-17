@@ -56,7 +56,7 @@ setx HF_API_KEY "your_huggingface_api_key"
 python chatbot.py
 ```
 
----
+### 5 Project Structure
 ```
 /Seismic-AI-Assistant
 │
@@ -198,5 +198,5 @@ To launch the app locally:
 ```bash
 python app.py
 ```
-[app Screenshot](screenshots/4.png)
+![Chatbot Screenshot](screenshots/4.png)
 Then open the interface in your browser, upload a `.segy` file, and download the processed version.
