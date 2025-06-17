@@ -22,9 +22,9 @@ This project supports both **Hugging Face API inference** and **retrieval from d
 - Provides a **simple UI** with **Gradio**.
 - ⚙️ Supports embedding regeneration and live testing.
 
-## New Feature: Seismic Processor Web App (Gradio)
+### New Feature: Seismic Processor Web App (Gradio)
 
-We have added a Gradio web application that allows you to upload a `.segy` file, process it using Seismic Unix, and download the resulting processed `.segy` file.
+-We have added a Gradio web application that allows you to upload a `.segy` file, process it using Seismic Unix, and download the resulting processed `.segy` file.
 
 
 ---
