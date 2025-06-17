@@ -57,7 +57,7 @@ python chatbot.py
 ```
 
 ---
-
+```
 /Seismic-AI-Assistant
 │
 ├── chatbot.py                  # Main chatbot using RAG + HuggingFace API for answering seismic questions
